@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/pages/index'
 import Login from '@/pages/login'
 import User from '@/pages/user'
+import Welcome from '@/pages/welcome.vue'
 
 Vue.use(Router)
 
@@ -25,7 +26,9 @@ export default new Router({
     },
     {
       path: '*',
-      redirect: '/index'
+      // redirect: '/index'
+      // name:'welcome',
+      component: Welcome
     }
   ]
 })

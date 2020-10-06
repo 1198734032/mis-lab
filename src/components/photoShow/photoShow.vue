@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <intro-title title="图片展示"></intro-title>
+    <intro-title title="成果展示" intro=""></intro-title>
     <div class="photo-wrapper">
       <div v-for="(item, index) of photoMessage" :key="index" class="item-wrapper fadeInUp wow" data-wow-delay="0.2s">
         <div class="photo-wrapper">
